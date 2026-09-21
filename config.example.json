@@ -1,0 +1,47 @@
+{
+  "defaultProfile": "kilo",
+  "profiles": [
+    {
+      "providerName": "kilo",
+      "upstreamBaseUrl": "https://kilo.imedata.ir/v1",
+      "upstreamApiKey": "<YOUR-PROVIDER-API-KEY>",
+      "upstreamModel": "kilo-auto/free",
+      "port": 3080,
+      "proxyTokens": [
+        "<YOUR-PROXY-TOKEN>"
+      ],
+      "toolFormat": "native",
+      "fullLogging": false,
+      "advertisedModels": [
+        "claude-sonnet-4-5",
+        "claude-haiku-4-5",
+        "claude-opus-4-5",
+        "sonnet",
+        "haiku",
+        "opus"
+      ],
+      "logFile": "gateway.log"
+    },
+    {
+      "providerName": "openai",
+      "upstreamBaseUrl": "https://api.openai.com/v1",
+      "upstreamApiKey": "<YOUR-OPENAI-API-KEY>",
+      "upstreamModel": "gpt-4o",
+      "port": 3081,
+      "proxyTokens": [
+        "<YOUR-PROXY-TOKEN>"
+      ],
+      "toolFormat": "native",
+      "fullLogging": false,
+      "advertisedModels": [
+        "claude-sonnet-4-5",
+        "claude-haiku-4-5",
+        "claude-opus-4-5",
+        "sonnet",
+        "haiku",
+        "opus"
+      ],
+      "logFile": "gateway.log"
+    }
+  ]
+}

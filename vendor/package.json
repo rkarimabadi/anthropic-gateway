@@ -1,0 +1,6 @@
+{
+  "name": "anthropic-gateway-vendor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vendored conversion core from claude-adapter (MIT) — see vendor/LICENSE.claude-adapter"
+}
